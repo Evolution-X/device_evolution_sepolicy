@@ -23,6 +23,12 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/lineage/sepolicy/mosey/system_ext/private
 endif
 
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    device/lineage/sepolicy/pixelsystemservice/system_ext/public
+
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/lineage/sepolicy/pixelsystemservice/system_ext/private
+
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/dynamic \
