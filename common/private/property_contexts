@@ -21,6 +21,7 @@ persist.columbus.use_ap_sensor         u:object_r:system_prop:s0
 
 # Custom legal URL
 ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
+ro.evolutionlegal.url                  u:object_r:legal_url_prop:s0
 
 # Custom version
 ro.lineage.version                     u:object_r:custom_version_prop:s0
@@ -28,6 +29,14 @@ ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 ro.lineage.device                      u:object_r:custom_version_prop:s0
+ro.evolution.version                   u:object_r:custom_version_prop:s0
+ro.evolution.display.version           u:object_r:custom_version_prop:s0
+ro.evolution.build.version             u:object_r:custom_version_prop:s0
+ro.evolution.build.type                u:object_r:custom_version_prop:s0
+ro.modversion                          u:object_r:custom_version_prop:s0
+
+# Read from every app process by ApplicationPackageManager
+ro.evolution.device                    u:object_r:exported_system_prop:s0
 
 # Display
 ro.bootanim.set_orientation_logical_0  u:object_r:surfaceflinger_prop:s0 exact enum ORIENTATION_0 ORIENTATION_90 ORIENTATION_180 ORIENTATION_270
